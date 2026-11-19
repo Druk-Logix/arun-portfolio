@@ -22,7 +22,7 @@ export const hero = {
   cta2: { label: 'Business Enquiries', href: '#contact' },
 };
 
-const educationSummary = 'CST graduate';
+export const educationSummary = 'CST graduate';
 export const spokenLanguages = 'English, Dzongkha, Hindi, Lhotshamkha, Tshanglakha';
 
 export const about = {
@@ -233,19 +233,11 @@ export const leadership = [
   { title: 'Student Clubs', detail: 'Entrepreneur Club, GovTech Satellite, Vocational Club, Integrity Club' },
 ];
 
-export const education = [
-  {
-    qualification: educationSummary,
-    institution: 'College of Science and Technology, Royal University of Bhutan',
-    period: '2022 – 2026',
-    location: 'Phuentsholing, Bhutan',
-  },
-  {
-    qualification: 'Class XII — Higher Secondary Education',
-    institution: 'Karmaling Higher Secondary School',
-    period: '2020 – 2022',
-  },
-];
+export const secondaryEducation = {
+  qualification: 'Class XII — Higher Secondary Education',
+  institution: 'Karmaling Higher Secondary School',
+  period: '2020 – 2022',
+};
 
 export const navItems = [
   { label: 'Home', href: '#home' },

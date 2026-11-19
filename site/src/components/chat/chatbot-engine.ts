@@ -1,6 +1,6 @@
 import {
   siteConfig, hero, spokenLanguages, experience, projects, skills,
-  business, leadership, education,
+  business, leadership, educationSummary, secondaryEducation,
 } from '@/data/content';
 
 interface KnowledgeEntry {
@@ -11,11 +11,11 @@ interface KnowledgeEntry {
 const knowledgeBase: KnowledgeEntry[] = [
   {
     keywords: ['who', 'about', 'yourself', 'introduce', 'tell me about', 'arun'],
-    response: `Arun Sanyasi is an Instrumentation & Control Engineer from ${siteConfig.location}. ${hero.intro} He is a ${education[0].qualification}.`,
+    response: `Arun Sanyasi is an Instrumentation & Control Engineer from ${siteConfig.location}. ${hero.intro} He is a ${educationSummary}.`,
   },
   {
     keywords: ['education', 'study', 'degree', 'university', 'college', 'school', 'qualification', 'cst'],
-    response: `Arun is a ${education[0].qualification}. Before that, he completed ${education[1].qualification} from ${education[1].institution} (${education[1].period}). He speaks ${spokenLanguages}.`,
+    response: `Arun is a ${educationSummary}. Before that, he completed ${secondaryEducation.qualification} from ${secondaryEducation.institution} (${secondaryEducation.period}). He speaks ${spokenLanguages}.`,
   },
   {
     keywords: ['experience', 'work history', 'internship', 'intern', 'job', 'career', 'trainee', 'employment'],
@@ -71,7 +71,7 @@ const knowledgeBase: KnowledgeEntry[] = [
   },
   {
     keywords: ['location', 'where', 'country', 'city', 'bhutan', 'based'],
-    response: `Arun is based in ${siteConfig.location}. He is a ${education[0].qualification}. He's open to international teams, remote collaboration, and working across time zones.`,
+    response: `Arun is based in ${siteConfig.location}. He is a ${educationSummary}. He's open to international teams, remote collaboration, and working across time zones.`,
   },
   {
     keywords: ['language', 'speak', 'dzongkha', 'hindi', 'spanish', 'english'],
