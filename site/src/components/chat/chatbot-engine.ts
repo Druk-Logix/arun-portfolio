@@ -1,5 +1,5 @@
 import {
-  siteConfig, hero, about, experience, projects, skills,
+  siteConfig, hero, spokenLanguages, experience, projects, skills,
   business, leadership, education,
 } from '@/data/content';
 
@@ -11,11 +11,11 @@ interface KnowledgeEntry {
 const knowledgeBase: KnowledgeEntry[] = [
   {
     keywords: ['who', 'about', 'yourself', 'introduce', 'tell me about', 'arun'],
-    response: `Arun Sanyasi is an Instrumentation & Control Engineer from ${siteConfig.location}. ${hero.intro} He graduated with a ${about.highlights[0].value} in ${about.highlights[1].value}.`,
+    response: `Arun Sanyasi is an Instrumentation & Control Engineer from ${siteConfig.location}. ${hero.intro} He is a ${education[0].qualification}.`,
   },
   {
     keywords: ['education', 'study', 'degree', 'university', 'college', 'school', 'qualification', 'cst'],
-    response: `Arun holds a ${education[0].degree} from ${education[0].institution} (${education[0].period}). Before that, he completed ${education[1].degree} from ${education[1].institution} (${education[1].period}). He speaks ${about.highlights[2].value}.`,
+    response: `Arun is a ${education[0].qualification}. Before that, he completed ${education[1].qualification} from ${education[1].institution} (${education[1].period}). He speaks ${spokenLanguages}.`,
   },
   {
     keywords: ['experience', 'work history', 'internship', 'intern', 'job', 'career', 'trainee', 'employment'],
@@ -71,11 +71,11 @@ const knowledgeBase: KnowledgeEntry[] = [
   },
   {
     keywords: ['location', 'where', 'country', 'city', 'bhutan', 'based'],
-    response: `Arun is based in ${siteConfig.location}. He graduated from the College of Science and Technology in Phuentsholing, Bhutan. He's open to international teams, remote collaboration, and working across time zones.`,
+    response: `Arun is based in ${siteConfig.location}. He is a ${education[0].qualification}. He's open to international teams, remote collaboration, and working across time zones.`,
   },
   {
     keywords: ['language', 'speak', 'dzongkha', 'hindi', 'spanish', 'english'],
-    response: `Arun speaks ${about.highlights[2].value}. His multilingual ability makes him well-suited for international and cross-cultural collaboration.`,
+    response: `Arun speaks ${spokenLanguages}. His multilingual ability makes him well-suited for international and cross-cultural collaboration.`,
   },
   {
     keywords: ['autocad', 'eplan', 'solidworks', 'fusion', 'blender', '3d', 'cad', 'drawing'],

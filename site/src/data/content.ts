@@ -22,18 +22,20 @@ export const hero = {
   cta2: { label: 'Business Enquiries', href: '#contact' },
 };
 
+const educationSummary = 'CST graduate';
+export const spokenLanguages = 'English, Dzongkha, Hindi, Lhotshamkha, Tshanglakha';
+
 export const about = {
   title: 'The Person',
   subtitle: 'behind the work',
   paragraphs: [
-    'I graduated with a B.E. in Instrumentation and Control Engineering from the College of Science and Technology, Royal University of Bhutan, in June 2026. My training spans hydropower automation, PLC/SCADA commissioning, and industrial electrical systems.',
+    `I'm a ${educationSummary}. My training spans hydropower automation, PLC/SCADA commissioning, and industrial electrical systems.`,
     'Beyond engineering, I design logos, edit videos, and manage social media for Bhutanese creators. I founded Zumthruel, a virtual-reality gaming venture, and I\'m always exploring ways technology can serve communities.',
     'I\'m motivated by bigger opportunities — to learn, contribute, and grow across engineering, creative work, and management. I\'m open to international teams, remote collaboration, and working across time zones.',
   ],
   highlights: [
-    { label: 'Education', value: 'B.E. in ICE, CST Royal University of Bhutan' },
-    { label: 'Graduated', value: 'June 2026' },
-    { label: 'Languages', value: 'English, Dzongkha, Hindi, Lhotshamkha, Tshanglakha' },
+    { label: 'Education', value: educationSummary },
+    { label: 'Languages', value: spokenLanguages },
     { label: 'Based in', value: 'Bhutan' },
   ],
 };
@@ -223,7 +225,7 @@ export const business = {
 };
 
 export const leadership = [
-  { title: 'Class Representative', detail: 'B.E. cohort during Year 1 and Year 2' },
+  { title: 'Class Representative', detail: 'Class representation during Years 1 and 2' },
   { title: 'Public Address Councilor', detail: 'College-wide communication and event coordination' },
   { title: 'Business Idea Competition Winner', detail: 'College level winner, national-level representation' },
   { title: 'Founder — Zumthruel', detail: 'Virtual reality gaming venture' },
@@ -233,13 +235,13 @@ export const leadership = [
 
 export const education = [
   {
-    degree: 'B.E. in Instrumentation and Control Engineering',
+    qualification: educationSummary,
     institution: 'College of Science and Technology, Royal University of Bhutan',
     period: '2022 – 2026',
     location: 'Phuentsholing, Bhutan',
   },
   {
-    degree: 'Class XII — Higher Secondary Education',
+    qualification: 'Class XII — Higher Secondary Education',
     institution: 'Karmaling Higher Secondary School',
     period: '2020 – 2022',
   },

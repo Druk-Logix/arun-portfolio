@@ -1,7 +1,7 @@
 # Arun Sanyasi — Portfolio
 
 ## About
-Arun Sanyasi is an Instrumentation and Control Engineer from Bhutan (B.E., College of Science and Technology, Royal University of Bhutan, 2022–2026). He builds automation systems, creates content for Bhutanese creators, and pursues entrepreneurial ventures.
+Arun Sanyasi is a CST graduate and an Instrumentation and Control Engineer from Bhutan. He builds automation systems, creates content for Bhutanese creators, and pursues entrepreneurial ventures.
 
 ## Expertise
 - Industrial Automation: PLC programming, SCADA, SICAM A8000, TIA Portal
