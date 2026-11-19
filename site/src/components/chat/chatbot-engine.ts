@@ -67,7 +67,7 @@ const knowledgeBase: KnowledgeEntry[] = [
   },
   {
     keywords: ['contact', 'email', 'phone', 'reach', 'connect', 'hire'],
-    response: `You can reach Arun at:\n\n• **Email:** ${siteConfig.email}\n• **Phone:** ${siteConfig.phone}\n• **Location:** ${siteConfig.location}\n• **GitHub:** [ArunSanyasi2786](${siteConfig.github})\n• **LinkedIn:** [Arun Sanyasi](${siteConfig.linkedin})\n\nOr use the contact form in the Contact section below!`,
+    response: `You can reach Arun at:\n\n• **Email:** ${siteConfig.email}\n• **Phone:** ${siteConfig.phone}\n• **Location:** ${siteConfig.location}\n• **GitHub:** [Druk-Logix](${siteConfig.github})\n• **LinkedIn:** [Arun Sanyasi](${siteConfig.linkedin})\n\nOr use the contact form in the Contact section below!`,
   },
   {
     keywords: ['location', 'where', 'country', 'city', 'bhutan', 'based'],

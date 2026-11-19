@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://arunsanyasi2786.github.io/arun-portfolio/sitemap.xml
+Sitemap: https://druk-logix.github.io/arun-portfolio/sitemap.xml

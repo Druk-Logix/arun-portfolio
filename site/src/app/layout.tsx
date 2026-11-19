@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: 'Arun Sanyasi — Engineer, Creator, Entrepreneur',
   description:
     'Instrumentation and Control Engineer based in Bhutan. Automation, content creation, and entrepreneurial services.',
-  metadataBase: new URL('https://arunsanyasi2786.github.io'),
+  metadataBase: new URL('https://druk-logix.github.io'),
   openGraph: {
     title: 'Arun Sanyasi — Engineer, Creator, Entrepreneur',
     description:
       'Instrumentation and Control Engineer based in Bhutan. Automation, content creation, and entrepreneurial services.',
-    url: 'https://arunsanyasi2786.github.io/arun-portfolio',
+    url: 'https://druk-logix.github.io/arun-portfolio',
     siteName: 'Arun Sanyasi',
     locale: 'en_US',
     type: 'website',
@@ -47,9 +47,9 @@ export default function RootLayout({
               '@type': 'Person',
               name: 'Arun Sanyasi',
               jobTitle: 'Instrumentation & Control Engineer',
-              url: 'https://arunsanyasi2786.github.io/arun-portfolio',
+              url: 'https://druk-logix.github.io/arun-portfolio',
               sameAs: [
-                'https://github.com/ArunSanyasi2786',
+                'https://github.com/Druk-Logix',
                 'https://www.linkedin.com/in/arun-sanyasi-469ba8272/',
                 'https://www.youtube.com/@aaronZ-z8k',
                 'https://www.instagram.com/man_on_a_protocol/',

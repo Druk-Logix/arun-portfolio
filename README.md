@@ -4,7 +4,7 @@ Personal portfolio website built with the **"Life in Chapters"** design theme.
 
 ## Live Website
 
-[arunsanyasi2786.github.io/arun-portfolio](https://arunsanyasi2786.github.io/arun-portfolio/)
+[druk-logix.github.io/arun-portfolio](https://druk-logix.github.io/arun-portfolio/)
 
 ## Tech Stack
 
